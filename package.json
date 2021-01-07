@@ -1,8 +1,15 @@
 {
+<<<<<<< HEAD
   "name": "kyle-richey-portfolio",
   "description": "Portfolio site for Kyle Richey",
   "version": "0.0.1",
   "author": "kyle@kyle-richey.com",
+=======
+  "name": "gatsby-starter-dimension-v2",
+  "description": "Gatsby Starter - Dimension V2",
+  "version": "1.0.0",
+  "author": "Hunter Chang",
+>>>>>>> 3808683884848b6fc0c89b94566f9a27cf151a1a
   "dependencies": {
     "gatsby": "^2.19.5",
     "gatsby-plugin-manifest": "^2.2.38",
@@ -28,6 +35,10 @@
   },
   "repository": {
     "type": "git",
+<<<<<<< HEAD
     "url": "https://github.com/krichey15/gatsby-starter-dimension.git"
+=======
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+>>>>>>> 3808683884848b6fc0c89b94566f9a27cf151a1a
   }
 }
