@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-dimension-v2",
-  "description": "Gatsby Starter - Dimension V2",
-  "version": "1.0.0",
-  "author": "Hunter Chang",
+  "name": "kyle-richey-portfolio",
+  "description": "Portfolio site for Kyle Richey",
+  "version": "0.0.1",
+  "author": "kyle@kyle-richey.com",
   "dependencies": {
     "gatsby": "^2.19.5",
     "gatsby-plugin-manifest": "^2.2.38",
@@ -28,6 +28,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/krichey15/gatsby-starter-dimension.git"
   }
 }
