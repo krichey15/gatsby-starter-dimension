@@ -79,25 +79,22 @@ class Main extends React.Component {
             <img className="family-photo" src={family} alt="wife-and-i" />
           </span>
           <p>
-          I am a person with many passions and skills. I have attained these from my experiences so far, 
-          I have had many different kinds of jobs and I have been able to retain at least one piece of 
-          wisdom from each of them.
+          Hi There! I see you have made your way over to my "About" section, thank you so much for taking the time 
+          to explore my page.
           <br/>
           <br/>
-          One passion is a passion for people, I love people, training people, meeting people, seeing 
-          people smile or laugh, introducing people to other people.
+          In case you missed it, my name is Kyle Richey. I am a husband, father, and a lover of all things programming. 
+          My wife and I have been married for 5+ years now and we have a wonderfully adventures 1 year old son. They are 
+          a huge inspiration to me and their constant encouragement has helped me to get to where I am today. 
+          <br/>
+          <br/> 
+          I was born and raised in the great PNW and I can't imagine life anywhere else. Skiing, Hiking, Camping, Swimming, 
+          living here allows me to do it all! I was also raised in a programmer household with both my parents having careers
+           in the field. This page is the unavoidable outcome of being raised by them and in one of the great developer meccas 
+           of the US. 
           <br/>
           <br/>
-          I also love learning. I will try to learn something new about any and every task in front of me,
-          whether it is as simple as running errands with my wife or as complicated as designing and 
-          facilitating a new training program.
-          <br/>
-          <br/>
-          I have others but those two are crucial to who I am. Because I have a passion for people and 
-          a passion for learning I have become a highly self-motivated person when it comes to training and 
-          teaching people. It has also allowed me to learn new tasks quickly and perform them efficiently. 
-          I am able to lead others and I have found that as long as you love people, those people are willing 
-          to follow. 
+          If you are looking for projects I have done, hop on over to the "Work" page.
           </p>
           {close}
         </article>
