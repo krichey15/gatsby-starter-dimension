@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import family from '../images/family-photo-crop.png'
+import family from '../images/about.jpg'
 import pic02 from '../images/pic02.jpg'
 
 class Main extends React.Component {
@@ -76,7 +76,7 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img src={family} alt="" />
+            <img className="family-photo" src={family} alt="wife-and-i" />
           </span>
           <p>
           I am a person with many passions and skills. I have attained these from my experiences so far, 

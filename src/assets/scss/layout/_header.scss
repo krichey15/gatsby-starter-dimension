@@ -69,6 +69,11 @@
     border: solid _size(border-width) _palette(border);
     border-radius: 100%;
 
+  .logo-image {
+    width: 90%;
+    margin-top: 32%;
+  }
+  
     .icon {
       &:before {
         font-size: 2rem;
@@ -100,6 +105,15 @@
       > :last-child {
         margin-bottom: 0;
       }
+    }
+
+    .full-logo {
+      height: 100%;
+      width: 100%;
+    }
+
+    .languages {
+      font-size: 1.5rem;
     }
 
     p {

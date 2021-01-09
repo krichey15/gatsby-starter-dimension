@@ -1,18 +1,17 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import krlogo from '../images/kyle-logo.png'
+import krlogo from '../images/logo-circle.png'
+import logoFull from '../images/logo-name.png'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <img src={krlogo} alt="my-logo" />
+      <img className="logo-image" src={krlogo} alt="my-logo" />
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Kyle Richey</h1>
-        <p>
-          Full-Stack JavaScript Developer
-          <br/>
+        <img className="full-logo" src={logoFull} alt="Full Logo" />
+        <p className="languages">
           React | NodeJS | MongoDB | SQL | AWS
         </p>
       </div>
