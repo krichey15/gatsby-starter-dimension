@@ -2,9 +2,10 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import family from '../images/family-photo-crop.png'
 import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
 
 class Main extends React.Component {
+
+
   render() {
     let close = (
       <div
@@ -89,7 +90,7 @@ class Main extends React.Component {
           <br/>
           I also love learning. I will try to learn something new about any and every task in front of me,
           whether it is as simple as running errands with my wife or as complicated as designing and 
-          facilitating a new training program (See Volunteer Work).
+          facilitating a new training program.
           <br/>
           <br/>
           I have others but those two are crucial to who I am. Because I have a passion for people and 
@@ -109,28 +110,36 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+
+          <form id="contact-form" action="https://formspree.io/f/xwkwabjl" method="POST">
+
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
             </div>
+
             <div className="field half">
               <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
+              <input type="text" name="_replyto" id="_replyto" />
             </div>
+
             <div className="field">
               <label htmlFor="message">Message</label>
               <textarea name="message" id="message" rows="4"></textarea>
             </div>
+
             <ul className="actions">
               <li>
                 <input type="submit" value="Send Message" className="special" />
               </li>
+
               <li>
                 <input type="reset" value="Reset" />
               </li>
+              
             </ul>
           </form>
+
           <ul className="icons">
             <li>
               <a href="https://twitter.com/k_richey" className="icon fa-twitter">
@@ -164,6 +173,7 @@ class Main extends React.Component {
     )
   }
 }
+
 
 Main.propTypes = {
   route: PropTypes.object,
