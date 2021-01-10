@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 import React from 'react'
 import grad from '../images/code-grad.png'
 import family from '../images/about.jpg'
