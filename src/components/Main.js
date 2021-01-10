@@ -1,7 +1,10 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import grad from '../images/code-grad.png'
 import family from '../images/about.jpg'
-import pic02 from '../images/pic02.jpg'
+import portfolio from '../images/portfolio-ss.png'
+import simply from '../images/simply-seattle.png'
+import storyville from '../images/storyville.jpg'
 
 class Main extends React.Component {
 
@@ -31,9 +34,16 @@ class Main extends React.Component {
         >
           <h2 className="major">Intro</h2>
           <span className="image main">
-            <img src={pic02} alt="family photo" />
+            <img src={grad} alt="code-fellows-graduation" />
           </span>
           <p>
+            Hello and Welcome!
+            <br/>
+            I am a Full-Stack JavaScript developer with experience in many languages, libraries and coding practices. The list below is just a small sample.
+          </p>
+          <h4>NodeJS | React | SQL | Mongodb | Express | Agile </h4>
+          <p>
+            Please have a look around my page, if you like what you see head over to the "Contact" page and send me a message. 
           </p>
           {close}
         </article>
@@ -46,24 +56,51 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Work</h2>
+
+          <h3 className="projects">Personal Portfolio</h3>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={portfolio} alt="portfolio-screenshot" />
           </span>
+          <h5>
+            React | SCSS | HTML
+          </h5>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            This is my personal portfolio website. This is site was a fun build using mainly REACT and SCSS. There are still a few things I want to do with it so check back periodically for updates. 
           </p>
+          <hr/>
+
+          <h3 className="projects">
+            <a href="https://www.simplyseattle.com/" target="_blank"  rel="noreferrer" className="hide-link">
+              Simply Seattle
+            </a>
+          </h3>
+          <span className="image main">
+            <img src={simply} alt="simplyseattle-screenshot" />
+          </span>
+          <h5>
+            JavaScript | CSS | Shopify
+          </h5>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            On this project I worked with Simply Seattle to create for them a responive addition to the footer of their site that would be visibile across all their pages. It included the 12 links as shown in the photo. I was also able to hunt down and fix some bugs in their code for them. This project was mainly done in Shopify using CSS and JavaScript. 
           </p>
+          <hr/>
+          
+          <h3 className="projects">
+            <a href="https://storyville.com/" target="_blank" rel="noreferrer" className="hide-link">
+              Storyville Coffee Company
+            </a>
+          </h3>
+          <span className="image main">
+            <img src={storyville} alt="storyville-screenshot" />
+          </span>
+          <h5>
+            React | Node | Express | MongoDB | SCSS
+          </h5>
+          <p>
+            This was a full-stack project in which I built the company a website for them to use for training their staff. It included a full front-end design, as well as a database that they could use to keep track of staff progress as they completed online trainging courses. 
+          </p>
+
+
           {close}
         </article>
 
@@ -84,7 +121,7 @@ class Main extends React.Component {
           <br/>
           <br/>
           In case you missed it, my name is Kyle Richey. I am a husband, father, and a lover of all things programming. 
-          My wife and I have been married for 5+ years now and we have a wonderfully adventures 1 year old son. They are 
+          My wife and I have been married for 5+ years now and we have a wonderfully adventurous 1 year old son. They are 
           a huge inspiration to me and their constant encouragement has helped me to get to where I am today. 
           <br/>
           <br/> 
@@ -108,9 +145,11 @@ class Main extends React.Component {
         >
           <h2 className="major">Contact</h2>
 
-          <form id="contact-form" action="https://formspree.io/f/xwkwabjl" method="POST">
+          <h4>Shoot me a message here.</h4>
 
-            <div className="field half first">
+          <form id="contact-form" action="mailto:kyle@kyle-richey.com" method="POST">
+            {/* TO DO: Impliment the below form in a secure way, clear form on submit. use action="https://formspree.io/f/xwkwabjl" in <form> attributes */}
+            {/* <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
             </div>
@@ -123,44 +162,45 @@ class Main extends React.Component {
             <div className="field">
               <label htmlFor="message">Message</label>
               <textarea name="message" id="message" rows="4"></textarea>
-            </div>
+            </div> */}
 
             <ul className="actions">
               <li>
                 <input type="submit" value="Send Message" className="special" />
-              </li>
-
-              <li>
-                <input type="reset" value="Reset" />
-              </li>
-              
+              </li>              
             </ul>
           </form>
+          
+          <h4>I'm pretty soical.</h4>
 
           <ul className="icons">
-            <li>
-              <a href="https://twitter.com/k_richey" className="icon fa-twitter">
-                <span className="label">Twitter</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.facebook.com/kyle.richey1/" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/richeykyle/" className="icon fa-instagram">
-                <span className="label">Instagram</span>
-              </a>
-            </li>
             <li>
               <a href="https://github.com/krichey15" className="icon fa-github">
                 <span className="label">GitHub</span>
               </a>
             </li>
+
             <li>
               <a href="https://www.linkedin.com/in/kyle-richey/" className="icon fa-linkedin">
                 <span className="label">LinkedIn</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.facebook.com/kyle.richey1/" className="icon fa-facebook">
+                <span className="label">Facebook</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/richeykyle/" className="icon fa-instagram">
+                <span className="label">Instagram</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://twitter.com/k_richey" className="icon fa-twitter">
+                <span className="label">Twitter</span>
               </a>
             </li>
           </ul>
