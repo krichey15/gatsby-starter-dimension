@@ -127,7 +127,7 @@ class Main extends React.Component {
           <br/> 
           I was born and raised in the great PNW and I can't imagine life anywhere else. Skiing, hiking, camping, swimming -  
           living here allows me to do it all! I was also raised in a programmer household, with both my parents having careers
-           in the field. This page is the unavoidable outcome of being raised by them and in one of the great developer meccas 
+           in the field. This career is the unavoidable outcome of being raised by them and in one of the great developer meccas 
            of the US. 
           <br/>
           <br/>
