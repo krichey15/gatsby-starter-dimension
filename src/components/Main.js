@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import grad from '../images/code-grad.png'
-import family from '../images/about.jpg'
-import portfolio from '../images/portfolio-ss.png'
+import family from '../images/courtney.jpg'
+import screenshot from '../images/website.png'
 import simply from '../images/simply-seattle.png'
 import storyville from '../images/storyville.jpg'
 
@@ -59,7 +59,7 @@ class Main extends React.Component {
 
           <h3 className="projects">Personal Portfolio</h3>
           <span className="image main">
-            <img src={portfolio} alt="portfolio-screenshot" />
+            <img src={screenshot} alt="portfolio-screenshot" />
           </span>
           <h5>
             React | SCSS | HTML
