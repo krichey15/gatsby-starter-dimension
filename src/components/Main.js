@@ -81,7 +81,7 @@ class Main extends React.Component {
             JavaScript | CSS | Shopify
           </h5>
           <p>
-            On this project I worked with Simply Seattle to create a responsive addition to the footer of the site. It is visibile across all pages and includes the 12 links as shown in the photo. I also cleaned up and debugged a portion of the code base. This project was mainly done in Shopify using CSS and JavaScript. 
+            On this project I worked with Simply Seattle to create a responsive addition to the footer of the website. It is visibile across all pages and includes the 12 links as shown in the photo. I also cleaned up and debugged a portion of the code base. This project was mainly done in Shopify using CSS and JavaScript. 
           </p>
           <hr/>
           
