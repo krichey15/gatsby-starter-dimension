@@ -62,10 +62,10 @@ class Main extends React.Component {
             <img src={screenshot} alt="portfolio-screenshot" />
           </span>
           <h5>
-            React | SCSS | HTML
+            React | SCSS | AWS | HTML
           </h5>
           <p>
-            This is my personal portfolio website. It is designed with the user in mind. From the aesthetic to the navigation, this site was a fun build. I built it using mainly REACT and SCSS.
+            This is my personal portfolio website. It is designed with the user in mind. From the aesthetic to the navigation, this site was a fun build. I built it using mainly REACT and SCSS. It was deployed using AWS.
           </p>
           <hr/>
 
