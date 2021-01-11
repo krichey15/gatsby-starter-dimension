@@ -147,9 +147,9 @@ class Main extends React.Component {
 
           <h4>Shoot me a message here.</h4>
 
-          <form id="contact-form" target="_blank" action="mailto:kyle@kyle-richey.com" method="POST">
-            {/* TO DO: Impliment the below form in a secure way, clear form on submit. use action="https://formspree.io/f/xwkwabjl" in <form> attributes */}
-            {/* <div className="field half first">
+          {/* <form id="contact-form" target="" action="mailto:kyle@kyle-richey.com" method="POST">
+            TO DO: Impliment the below form in a secure way, clear form on submit. use action="https://formspree.io/f/xwkwabjl" in <form> attributes
+            <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
             </div>
@@ -162,15 +162,20 @@ class Main extends React.Component {
             <div className="field">
               <label htmlFor="message">Message</label>
               <textarea name="message" id="message" rows="4"></textarea>
-            </div> */}
+            </div>
 
             <ul className="actions">
               <li>
                 <input type="submit" value="Send Message" className="special" />
               </li>              
             </ul>
-          </form>
-          
+          </form> */}
+          <a href="mailto:kyle@kyle-richey.com">
+            <button className="special">Send Message</button>
+          </a>
+
+          <br/>
+          <br/>
           <h4>I'm pretty social.</h4>
 
           <ul className="icons">
