@@ -171,7 +171,7 @@ class Main extends React.Component {
             </ul>
           </form>
           
-          <h4>I'm pretty soical.</h4>
+          <h4>I'm pretty social.</h4>
 
           <ul className="icons">
             <li>
