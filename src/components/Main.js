@@ -65,7 +65,7 @@ class Main extends React.Component {
             React | SCSS | AWS | HTML
           </h5>
           <p>
-            This is my personal portfolio website. It is designed with the user in mind. From the aesthetic to the navigation, this site was a fun build. I built it using mainly REACT and SCSS. It was deployed using AWS.
+            This is my personal portfolio website. It is designed with the user in mind. From the aesthetic to the navigation, this site was a fun build. It was built it using mainly REACT and SCSS and was deployed using AWS.
           </p>
           <hr/>
 
