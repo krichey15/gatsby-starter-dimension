@@ -65,7 +65,7 @@ class Main extends React.Component {
             React | SCSS | HTML
           </h5>
           <p>
-            This is my personal portfolio website. This is site was a fun build using mainly REACT and SCSS. There are still a few things I want to do with it so check back periodically for updates. 
+            This is my personal portfolio website. It is designed with the user in mind. From the aesthetic to the navigation, this site was a fun build. I built it using mainly REACT and SCSS.
           </p>
           <hr/>
 
@@ -81,7 +81,7 @@ class Main extends React.Component {
             JavaScript | CSS | Shopify
           </h5>
           <p>
-            On this project I worked with Simply Seattle to create a responsive addition to the footer of their site that would be visibile across all pages. It included the 12 links as shown in the photo. I was also able to hunt down and fix some bugs in their code. This project was mainly done in Shopify using CSS and JavaScript. 
+            On this project I worked with Simply Seattle to create a responsive addition to the footer of the site. It is visibile across all pages and includes the 12 links as shown in the photo. I also cleaned up and debugged a portion of the code base. This project was mainly done in Shopify using CSS and JavaScript. 
           </p>
           <hr/>
           
@@ -97,7 +97,7 @@ class Main extends React.Component {
             React | Node | Express | MongoDB | SCSS
           </h5>
           <p>
-            This was a full-stack project in which I built Storyville a website to use for training their staff. It included a full front-end design, as well as a database that Storyville could use to keep track of staff progress as training courses were completed.
+            This was a full-stack project in which I worked with Storyville to build a website for training staff. It included a full front-end design, as well as a database that Storyville could use to keep track of staff progress as training courses were completed.
           </p>
 
 
