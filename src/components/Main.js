@@ -147,7 +147,7 @@ class Main extends React.Component {
 
           <h4>Shoot me a message here.</h4>
 
-          <form id="contact-form" action="mailto:kyle@kyle-richey.com" method="POST">
+          <form id="contact-form" target="_top" action="mailto:kyle@kyle-richey.com" method="POST">
             {/* TO DO: Impliment the below form in a secure way, clear form on submit. use action="https://formspree.io/f/xwkwabjl" in <form> attributes */}
             {/* <div className="field half first">
               <label htmlFor="name">Name</label>
