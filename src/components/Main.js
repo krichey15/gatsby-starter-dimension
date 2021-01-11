@@ -81,7 +81,7 @@ class Main extends React.Component {
             JavaScript | CSS | Shopify
           </h5>
           <p>
-            On this project I worked with Simply Seattle to create for them a responive addition to the footer of their site that would be visibile across all their pages. It included the 12 links as shown in the photo. I was also able to hunt down and fix some bugs in their code for them. This project was mainly done in Shopify using CSS and JavaScript. 
+            On this project I worked with Simply Seattle to create a responsive addition to the footer of their site that would be visibile across all pages. It included the 12 links as shown in the photo. I was also able to hunt down and fix some bugs in their code. This project was mainly done in Shopify using CSS and JavaScript. 
           </p>
           <hr/>
           
@@ -97,7 +97,7 @@ class Main extends React.Component {
             React | Node | Express | MongoDB | SCSS
           </h5>
           <p>
-            This was a full-stack project in which I built the company a website for them to use for training their staff. It included a full front-end design, as well as a database that they could use to keep track of staff progress as they completed online trainging courses. 
+            This was a full-stack project in which I built Storyville a website to use for training their staff. It included a full front-end design, as well as a database that Storyville could use to keep track of staff progress as training courses were completed.
           </p>
 
 
@@ -125,8 +125,8 @@ class Main extends React.Component {
           a huge inspiration to me and their constant encouragement has helped me to get to where I am today. 
           <br/>
           <br/> 
-          I was born and raised in the great PNW and I can't imagine life anywhere else. Skiing, Hiking, Camping, Swimming, 
-          living here allows me to do it all! I was also raised in a programmer household with both my parents having careers
+          I was born and raised in the great PNW and I can't imagine life anywhere else. Skiing, hiking, camping, swimming -  
+          living here allows me to do it all! I was also raised in a programmer household, with both my parents having careers
            in the field. This page is the unavoidable outcome of being raised by them and in one of the great developer meccas 
            of the US. 
           <br/>
