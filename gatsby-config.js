@@ -10,12 +10,12 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'gatsby-starter-default',
-        short_name: 'starter',
+        short_name: 'Kyle Richey Portfolio',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/images/Kr-small.png', // This path is relative to the root of the site.
+        icon: 'src/images/kr-small.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-sass',
