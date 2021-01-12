@@ -34,7 +34,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Intro</h2>
           <span className="image main">
-            <img src={bench} alt="bench photo" />
+            <img src={bench} alt="bench" />
           </span>
           <p>
             Hello and Welcome!
