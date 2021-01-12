@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import bench from '../images/bench.png'
+import grad from '../images/code-grad.png'
 import family from '../images/courtney.jpg'
 import screenshot from '../images/website.png'
 import simply from '../images/simply-seattle.png'
@@ -34,7 +34,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Intro</h2>
           <span className="image main">
-            <img src={bench} alt="bench" />
+            <img src={grad} alt="code-fellows-graduation" />
           </span>
           <p>
             Hello and Welcome!
@@ -173,7 +173,7 @@ class Main extends React.Component {
           <a href="mailto:kyle@kyle-richey.com">
             <button className="special">Send Message</button>
           </a>
-
+          
           <br/>
           <br/>
           <h4>I'm pretty social.</h4>
