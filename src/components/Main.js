@@ -5,6 +5,7 @@ import family from '../images/courtney.jpg'
 import screenshot from '../images/website.png'
 import simply from '../images/simply-seattle.png'
 import storyville from '../images/storyville.jpg'
+import Contact from '../components/contact-form'
 
 class Main extends React.Component {
 
@@ -34,7 +35,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Intro</h2>
           <span className="image main">
-            <img src={bench} alt="bench-photo" />
+            <img src={bench} alt="bench" />
           </span>
           <p>
             Hello and Welcome!
@@ -145,34 +146,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Contact</h2>
 
-          <h4>Shoot me a message here.</h4>
-
-          {/* <form id="contact-form" target="" action="mailto:kyle@kyle-richey.com" method="POST">
-            TO DO: Impliment the below form in a secure way, clear form on submit. use action="https://formspree.io/f/xwkwabjl" in <form> attributes
-            <div className="field half first">
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-
-            <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input type="text" name="_replyto" id="_replyto" />
-            </div>
-
-            <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
-            </div>
-
-            <ul className="actions">
-              <li>
-                <input type="submit" value="Send Message" className="special" />
-              </li>              
-            </ul>
-          </form> */}
-          <a href="mailto:kyle@kyle-richey.com">
-            <button className="special">Send Message</button>
-          </a>
+          <Contact />
           
           <br/>
           <br/>
