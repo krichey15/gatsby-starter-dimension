@@ -33,7 +33,9 @@ const CustomTextarea = ({ label, ...props}) => {
 
 function Contact(){
     
-    const sendEmail = function(e) {
+    function sendEmail(e){
+        e.preventDefaults()
+
         emailjs.sendForm('fs_gmail', 'template_xna9qag', e.target, 'user_CJwQWuHoafh44jTrmGspT')
         .then((result) => {
           console.log(result.text);
