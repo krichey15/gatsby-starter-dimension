@@ -5,6 +5,7 @@ import family from '../images/courtney.jpg'
 import screenshot from '../images/website.png'
 import simply from '../images/simply-seattle.png'
 import storyville from '../images/storyville.jpg'
+import cookiedaughters from '../images/cookiedscreen.png'
 
 class Main extends React.Component {
 
@@ -57,6 +58,26 @@ class Main extends React.Component {
         >
           <h2 className="major">Work</h2>
 
+          
+
+          <h3 className="projects">
+            <a href="https://www.cookiedaughters.com/" target="_blank"  rel="noreferrer" className="hide-link">
+              Cookie Daughters
+            </a>
+          </h3>
+          <span className="image main">
+            <a href="https://www.cookiedaughters.com/" target="_blank"  rel="noreferrer" className="hide-link">
+              <img src={cookiedaughters} alt="Cookie Daughters" />
+            </a>
+          </span>
+          <h5>
+            React | Gatsby | Styled-Components | Shopify | GraphQL | Netlify
+          </h5>
+          <p>
+            This is a responsive e-commerce website for a bakery in Sequim. The site utilizes a combination of React-hooks, Shopify, Netlify and GraphQL to give the user a smooth experience. I also used webhooks with Shopify and Zapier to provide the client with an easy way to update their site. 
+          </p>
+          <hr/>
+
           <h3 className="projects">Personal Portfolio</h3>
           <span className="image main">
             <img src={screenshot} alt="portfolio-screenshot" />
@@ -75,7 +96,9 @@ class Main extends React.Component {
             </a>
           </h3>
           <span className="image main">
-            <img src={simply} alt="simplyseattle-screenshot" />
+            <a href="https://www.simplyseattle.com/" target="_blank"  rel="noreferrer" className="hide-link">
+              <img src={simply} alt="simplyseattle-screenshot" />
+            </a>
           </span>
           <h5>
             JavaScript | CSS | Shopify
@@ -91,7 +114,9 @@ class Main extends React.Component {
             </a>
           </h3>
           <span className="image main">
+          <a href="https://storyville.com/" target="_blank" rel="noreferrer" className="hide-link">
             <img src={storyville} alt="storyville-screenshot" />
+          </a>
           </span>
           <h5>
             React | Node | Express | MongoDB | SCSS
